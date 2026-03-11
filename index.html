@@ -2,642 +2,606 @@
 <html lang="en">
 
 <head>
-<meta charset="utf-8">
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-<title>Thanooj Pelamkulangara</title>
-<meta name="description" content="Thanooj Pelamkulangara - Full Stack MERN Developer specializing in scalable SaaS platforms, healthcare systems, secure APIs and AWS deployments.">
-<meta name="keywords" content="MERN Developer, Full Stack Developer, Node.js, React, SaaS Engineer, Healthcare Software Developer, AWS Developer">
-
-
-<!-- Favicons -->
-<link href="assets/img/favicon.png" rel="icon">
-<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-<!-- Google Fonts -->
-<link
-href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-rel="stylesheet">
-
-<!-- Vendor CSS Files -->
-<link href="assets/vendor/aos/aos.css" rel="stylesheet">
-<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-<!-- Template Main CSS File -->
-<link href="assets/css/style.css" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanooj Pelamkulangara — Full Stack Developer</title>
+    <meta name="description"
+        content="Full Stack Developer specializing in scalable SaaS platforms, healthcare systems, secure APIs and AWS deployments.">
+    <meta name="keywords"
+        content="MERN Developer, Full Stack Developer, Backend Engineer, Frontend Engineer, MongoDB, Express.js, MERN Stack, Next.js, PERN Stack, Node.js, React, SaaS Engineer, Healthcare Software Developer, AWS Developer">
+    <link href="assets/img/favicon.png" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
+    <!-- ─── NAV ─── -->
+    <nav>
+        <a href="#" class="nav-logo">THANOOJ<span> </span>P K</a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="https://wa.me/919846840046?text=Hi%20Thanooj%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20job%20opportunity%20with%20you."
+            class="nav-cta" target="_blank">Hire Me</a>
+    </nav>
 
-<!-- ======= Mobile nav toggle button ======= -->
-<i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+    <!-- ─── HERO ─── -->
+    <section class="hero" id="home">
+        <div class="hero-bg-glow"></div>
+        <div class="hero-bg-glow2"></div>
+        <h1 class="hero-name">
+            Thanooj<br>
+            <span class="line2">Pelamkulangara</span>
+        </h1>
+        <p class="hero-title">
+            Full Stack / Backend Engineer · <span class="accent">React · Node.js · Express · MongoDB · PostgreSQL ·
+                AWS</span>
+        </p>
+        <p class="hero-desc">
+            Backend-focused Full Stack Engineer with 2+ years of 0→1 ownership in startup environments. Specialize in
+            React, Node.js, PostgreSQL, MongoDB and AWS — from API design to production deployment. Currently leading
+            architecture for a live healthcare SaaS platform with >99% uptime.
+        </p>
+        <div class="hero-actions">
+            <a href="#projects" class="btn-primary">View My Work →</a>
+            <a href="assets/cv/Thanooj-Pelamkulangara.pdf" class="btn-secondary" download>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+                Download CV
+            </a>
+        </div>
+        <div class="hero-stats">
+            <div class="stat">
+                <div class="stat-num">2<span>+</span></div>
+                <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat">
+                <div class="stat-num">4<span>+</span></div>
+                <div class="stat-label">Production Apps</div>
+            </div>
+            <div class="stat">
+                <div class="stat-num">15<span>+</span></div>
+                <div class="stat-label">Project Repos</div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>scroll to explore</span>
+        </div>
+    </section>
 
-<!-- ======= Header ======= -->
-<header id="header">
-<div class="d-flex flex-column">
-<div class="profile">
-<img src="assets/img/profile-img.webp" alt="" class="img-fluid rounded-circle">
-<h1 class="text-light"><a href="index.html">Thanooj Pelamkulangara</a></h1>
-<div class="social-links mt-3 text-center">
-<a href="https://twitter.com/thanu1495" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
-<a href="https://www.facebook.com/thanu1495" class="facebook" target="_blank"><i
-class="bx bxl-facebook"></i></a>
-<a href="https://www.instagram.com/thanoojkhan" class="instagram" target="_blank"><i
-class="bx bxl-instagram"></i></a>
-<a href="https://www.linkedin.com/in/thanooj-pelamkulangara-a9244359/" class="linkedin" target="_blank"><i
-class="bx bxl-linkedin"></i></a>
-</div>
-</div>
+    <!-- ─── MARQUEE ─── -->
+    <div class="marquee-wrap">
+        <div class="marquee-track">
+            <span class="marquee-item">Node.js</span>
+            <span class="marquee-item">React.js</span>
+            <span class="marquee-item">PostgreSQL</span>
+            <span class="marquee-item">MongoDB</span>
+            <span class="marquee-item">AWS EC2</span>
+            <span class="marquee-item">Next.js</span>
+            <span class="marquee-item">TypeScript</span>
+            <span class="marquee-item">WebSockets</span>
+            <span class="marquee-item">REST APIs</span>
+            <span class="marquee-item">JWT Auth</span>
+            <span class="marquee-item">Docker</span>
+            <span class="marquee-item">Nginx</span>
+            <span class="marquee-item">Stripe</span>
+            <span class="marquee-item">Firebase</span>
+            <span class="marquee-item">Node.js</span>
+            <span class="marquee-item">React.js</span>
+            <span class="marquee-item">PostgreSQL</span>
+            <span class="marquee-item">MongoDB</span>
+            <span class="marquee-item">AWS EC2</span>
+            <span class="marquee-item">Next.js</span>
+            <span class="marquee-item">TypeScript</span>
+            <span class="marquee-item">WebSockets</span>
+            <span class="marquee-item">REST APIs</span>
+            <span class="marquee-item">JWT Auth</span>
+            <span class="marquee-item">Docker</span>
+            <span class="marquee-item">Nginx</span>
+            <span class="marquee-item">Stripe</span>
+            <span class="marquee-item">Firebase</span>
+        </div>
+    </div>
 
-<nav id="navbar" class="nav-menu navbar">
-<ul>
-<li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-<li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-<li><a href="#skills" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Skills</span></a></li>
-<li><a href="#experience" class="nav-link scrollto"><i class="bx bx-briefcase"></i><span>Projects & Experience</span></a></li>
-<li><a href="#experience1" class="nav-link scrollto"><i class="bx bx-briefcase"></i><span>Experience(Non - IT)</span></a></li>
-<li><a href="#education" class="nav-link scrollto"><i class="bx bx-book"></i><span>Education</span></a></li>
+    <!-- ─── ABOUT ─── -->
+    <section id="about">
+        <div class="section-header reveal">
+            <span class="section-num">01</span>
+            <h2 class="section-title">About Me</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="about-grid">
+            <div class="about-text reveal">
+                <p>I'm a <strong>Full Stack / Backend Software Engineer</strong> who transitioned from Mechanical
+                    Engineering into building production-grade web systems. What started as self-directed curiosity
+                    turned into end-to-end ownership of live platforms used by real users.</p>
+                <p>I specialize in <strong>backend architecture and scalable SaaS systems</strong> — secure REST APIs,
+                    subscription and role-based access control, hybrid database design, real-time infrastructure and AWS
+                    deployments. I apply SOLID principles, clean architecture and testing practices to every system I
+                    build.</p>
+                <p>Currently a Founding Engineer at <strong>MedB Connected Care</strong>, where I'm the primary
+                    technical decision-maker — defining architecture, database strategy and deployment workflows
+                    independently.</p>
+                <div class="about-badges">
+                    <span class="badge">0→1 Ownership</span>
+                    <span class="badge">Backend Architecture</span>
+                    <span class="badge">SOLID Principles</span>
+                    <span class="badge">API Design</span>
+                    <span class="badge">AWS Deployments</span>
+                    <span class="badge">Healthcare SaaS</span>
+                    <span class="badge">Real-time Systems</span>
+                    <span class="badge">Clean Architecture</span>
+                </div>
+                <div class="about-info">
+                    <div class="info-item">
+                        <div class="info-label">Location</div>
+                        <div class="info-value">Kerala, India</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Email</div>
+                        <div class="info-value"><a href="mailto:thanooj.pka@gmail.com">thanooj.pka@gmail.com</a></div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">GitHub</div>
+                        <div class="info-value"><a href="https://github.com/ThanoojKhan" target="_blank">View GitHub</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">LinkedIn</div>
+                        <div class="info-value"><a href="https://www.linkedin.com/in/thanooj-pelamkulangara-a9244359/"
+                                target="_blank">View Profile</a></div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">LeetCode</div>
+                        <div class="info-value"><a href="https://leetcode.com/thanu1495/" target="_blank">View
+                                Profile</a></div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Phone</div>
+                        <div class="info-value"><a href="tel:+919846840046">+91 9846840046</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image-side reveal">
+                <div class="about-img-wrapper">
+                    <img src="assets/img/1688396726049.jpeg" alt="Thanooj Pelamkulangara"
+                        onerror="this.style.display='none'">
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
-<span>Portfolio</span></a></li> -->
-<!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
-</ul>
-</nav><!-- .nav-menu -->
-</div>
-</header><!-- End Header -->
+    <!-- ─── SKILLS ─── -->
+    <section id="skills"
+        style="background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+        <div class="section-header reveal">
+            <span class="section-num">02</span>
+            <h2 class="section-title">Tech Stack</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card reveal">
+                <span class="skill-icon">⬡</span>
+                <div class="skill-category">Frontend</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">React.js</span>
+                    <span class="skill-tag">Next.js</span>
+                    <span class="skill-tag">Redux Toolkit</span>
+                    <span class="skill-tag">Zustand</span>
+                    <span class="skill-tag">TypeScript</span>
+                    <span class="skill-tag">JavaScript ES6+</span>
+                    <span class="skill-tag">Tailwind CSS</span>
+                    <span class="skill-tag">HTML / CSS</span>
+                </div>
+            </div>
+            <div class="skill-card reveal">
+                <span class="skill-icon">⬡</span>
+                <div class="skill-category">Backend</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Express.js</span>
+                    <span class="skill-tag">REST APIs</span>
+                    <span class="skill-tag">WebSockets</span>
+                    <span class="skill-tag">JWT Auth</span>
+                    <span class="skill-tag">Redis</span>
+                    <span class="skill-tag">Cron Jobs</span>
+                    <span class="skill-tag">MVC Architecture</span>
+                </div>
+            </div>
+            <div class="skill-card reveal">
+                <span class="skill-icon">⬡</span>
+                <div class="skill-category">Databases</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">PostgreSQL</span>
+                    <span class="skill-tag">MongoDB</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">Query Optimization</span>
+                    <span class="skill-tag">Indexing</span>
+                    <span class="skill-tag">Aggregation</span>
+                    <span class="skill-tag">Hybrid Design</span>
+                </div>
+            </div>
+            <div class="skill-card reveal">
+                <span class="skill-icon">⬡</span>
+                <div class="skill-category">DevOps & Cloud</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">AWS EC2</span>
+                    <span class="skill-tag">Nginx</span>
+                    <span class="skill-tag">PM2</span>
+                    <span class="skill-tag">CI/CD Concepts</span>
+                    <span class="skill-tag">Docker Basics</span>
+                    <span class="skill-tag">Git / GitHub</span>
+                    <span class="skill-tag">Vercel</span>
+                </div>
+            </div>
+            <div class="skill-card reveal">
+                <span class="skill-icon">⬡</span>
+                <div class="skill-category">Integrations</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Stripe</span>
+                    <span class="skill-tag">RazorPay</span>
+                    <span class="skill-tag">Firebase</span>
+                    <span class="skill-tag">Socket.IO</span>
+                    <span class="skill-tag">Cloudinary</span>
+                    <span class="skill-tag">WhatsApp API</span>
+                    <span class="skill-tag">Google OAuth</span>
+                    <span class="skill-tag">Mapbox</span>
+                    <span class="skill-tag">Nodemailer</span>
+                </div>
+            </div>
+            <div class="skill-card reveal">
+                <span class="skill-icon">⬡</span>
+                <div class="skill-category">Testing & Tools</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Jest</span>
+                    <span class="skill-tag">Supertest</span>
+                    <span class="skill-tag">React Testing Library</span>
+                    <span class="skill-tag">Postman</span>
+                    <span class="skill-tag">Swagger</span>
+                    <span class="skill-tag">Figma</span>
+                    <span class="skill-tag">Moon Modeler</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- ======= Hero Section ======= -->
-<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-<div class="hero-container" data-aos="fade-in">
-<h1>Thanooj Pelamkulangara</h1>
-<p>I'm <span class="typed"
-data-typed-items="Full Stack Developer, SaaS & Healthcare Systems Engineer, Backend-Focused, Production Deployment Specialist"></span>
-</p>
-</div>
-</section><!-- End Hero -->
+    <!-- ─── EXPERIENCE ─── -->
+    <section id="experience">
+        <div class="section-header reveal">
+            <span class="section-num">03</span>
+            <h2 class="section-title">Work Experience</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-period">Jan 2025 — Present</div>
+                <div class="timeline-role">Founding Software Engineer</div>
+                <div class="timeline-company">
+                    MedB Connected Care LLP
+                    <span class="dot"></span>
+                    Remote
+                    <span class="dot"></span>
+                    <span style="color: #00e5a0; font-size: 0.78rem;">● Active</span>
+                </div>
+                <p class="timeline-desc">Built and operated a production-grade healthcare SaaS platform from scratch
+                    (0→1), serving as the primary technical decision-maker — defining architecture, database strategy,
+                    authentication and deployment workflows independently.</p>
+                <ul class="timeline-list">
+                    <li>Designed multi-tenant, subscription-based access control across doctors, patients, clinics and
+                        administrators (4+ user tiers)</li>
+                    <li>Architected hybrid persistence: PostgreSQL for transactional consistency, MongoDB for audit
+                        logging and high-volume operational data</li>
+                    <li>Implemented caching and query optimizations, reducing average API response time by <strong
+                            style="color: var(--accent)">35%</strong></li>
+                    <li>Streamlined onboarding workflows, reducing new user setup time by <strong
+                            style="color: var(--accent)">40%</strong></li>
+                    <li>Engineered real-time notification infrastructure via WebSockets with multi-channel failover
+                        (in-app, email, WhatsApp)</li>
+                    <li>Deployed on AWS EC2 with Nginx and PM2, maintaining <strong style="color: var(--accent)">>99%
+                            uptime</strong> with stable failure recovery</li>
+                    <li>Established centralized logging, monitoring and audit visibility across the full system</li>
+                </ul>
+                <div class="timeline-stack">
+                    <span class="stack-tag">Node.js</span>
+                    <span class="stack-tag">React</span>
+                    <span class="stack-tag">PostgreSQL</span>
+                    <span class="stack-tag">MongoDB</span>
+                    <span class="stack-tag">Redis</span>
+                    <span class="stack-tag">WebSockets</span>
+                    <span class="stack-tag">AWS EC2</span>
+                    <span class="stack-tag">Nginx</span>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-period">Jun 2024 — Nov 2024</div>
+                <div class="timeline-role">MERN Stack Developer</div>
+                <div class="timeline-company">
+                    Mcabee Technologies
+                    <span class="dot"></span>
+                    Remote
+                </div>
+                <ul class="timeline-list">
+                    <li>Contributed to scalable backend services using TypeScript, Node.js, Express and MongoDB for a
+                        global social matchmaking platform</li>
+                    <li>Integrated Redis-based caching and Cloudflare CDN, reducing repeated database load and improving
+                        response performance</li>
+                    <li>Designed secure REST APIs with JWT auth supporting web and Android clients</li>
+                    <li>Developed scheduled background jobs with cron to automate recurring system workflows</li>
+                    <li>Enhanced frontend modules using React.js and Next.js across public and admin dashboards</li>
+                    <li>Integrated Firebase push notifications and real-time messaging features</li>
+                </ul>
+                <div class="timeline-stack">
+                    <span class="stack-tag">TypeScript</span>
+                    <span class="stack-tag">Node.js</span>
+                    <span class="stack-tag">React</span>
+                    <span class="stack-tag">Next.js</span>
+                    <span class="stack-tag">MongoDB</span>
+                    <span class="stack-tag">Redis</span>
+                    <span class="stack-tag">Cloudflare</span>
+                    <span class="stack-tag">Firebase</span>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-period">Jun 2024 — 1 Week Program</div>
+                <div class="timeline-role">MERN Stack Trainer</div>
+                <div class="timeline-company">
+                    Sixphrase by Veranda Learning
+                    <span class="dot"></span>
+                    KCT, Coimbatore
+                </div>
+                <ul class="timeline-list">
+                    <li>Delivered intensive MERN stack training to <strong style="color: var(--accent)">50+ engineering
+                            students</strong> across multiple disciplines</li>
+                    <li>Mentored teams through end-to-end project architecture, JWT auth, deployment and debugging
+                        workflows</li>
+                    <li>Improved student project completion and deployment readiness within the program duration</li>
+                </ul>
+                <div class="timeline-stack">
+                    <span class="stack-tag">MERN</span>
+                    <span class="stack-tag">REST APIs</span>
+                    <span class="stack-tag">JWT</span>
+                    <span class="stack-tag">Training</span>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-period">Nov 2023 — Apr 2024</div>
+                <div class="timeline-role">Freelance Full-Stack Developer</div>
+                <div class="timeline-company">StepzFit Wellness <span class="dot"></span> Remote</div>
+                <ul class="timeline-list">
+                    <li>Designed and launched a PWA for personalized fitness and nutrition tracking with scalable
+                        backend design</li>
+                    <li>Integrated Stripe subscription billing and Google OAuth for secure payments and frictionless
+                        onboarding</li>
+                    <li>Built real-time chat and activity updates using WebSockets</li>
+                    <li>Deployed production infrastructure on AWS EC2 with Nginx and PM2</li>
+                </ul>
+                <div class="timeline-stack">
+                    <span class="stack-tag">React</span>
+                    <span class="stack-tag">Node.js</span>
+                    <span class="stack-tag">MongoDB</span>
+                    <span class="stack-tag">Stripe</span>
+                    <span class="stack-tag">WebSockets</span>
+                    <span class="stack-tag">AWS EC2</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<main id="main">
+    <!-- ─── PROJECTS ─── -->
+    <section id="projects"
+        style="background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+        <div class="section-header reveal">
+            <span class="section-num">04</span>
+            <h2 class="section-title">Projects</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="projects-grid">
 
-<!-- ======= About Section ======= -->
-<section id="about" class="about">
-<div class="container">
-<div class="section-title">
-<h2>About</h2>
-<p>
-Full Stack Developer with 2+ years of experience building scalable SaaS platforms using React, Node.js and PostgreSQL. 
-I specialize in backend architecture, role-based access control, secure API design and production deployments. 
-Currently leading development for a live healthcare platform serving doctors, clinics and patients. 
-Strong focus on performance, reliability and clean system design.
-</p>
-</div>
-<div class="row">
-<div class="col-lg-4" data-aos="fade-right">
-<img src="assets/img/1688396726049.jpg" class="img-fluid" alt="">
-</div>
-<div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-<h3>Full Stack Web Developer</h3>
-<div class="row">
-<div class="col-lg-6">
-<ul>
-<!-- <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>27 October 1991</span></li> -->
-<li><i class="bi bi-chevron-right"></i> <strong>GitHub:</strong> <span><a
-href="https://github.com/ThanoojKhan" target="_blank">Click Here</a></span></li>
-</li>
-<li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Mechanical Engineer</span></li>
-<li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span><a href="tel:+919846840046">+91
-9846840046</a></span></li>
-<li><i class="bi bi-chevron-right"></i> <strong>State:</strong> <span>Kerala</span></li>
-</ul>
-</div>
-<div class="col-lg-6">
-<ul>
-<!-- <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li> -->
-<li><i class="bi bi-chevron-right"></i> <strong>Leetcode:</strong> <span><a
-href="https://leetcode.com/thanu1495/" target="_blank">Click Here</a></span></li>
-<li><i class="bi bi-chevron-right"></i> <strong>Graduation:</strong> <span>B.E. Mechanical Engineering</span></li>
-<li><i class="bi bi-chevron-right"></i> <strong>Email:</strong><span>
-<a href="mailto:thanooj.pka@gmail.com">thanooj.pka@gmail.com</a>
-</span></li>
-</li>
-<li><i class="bi bi-chevron-right"></i> <strong>Country:</strong> <span>India</span></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section><!-- End About Section -->
+            <div class="project-card featured reveal">
+                <div class="live-badge"><span class="live-dot"></span> Live in Production</div>
+                <div class="project-num">Project 01 — Featured</div>
+                <div class="project-name">MedB – Connected Care</div>
+                <div class="project-tagline">Healthcare Management Ecosystem</div>
+                <p class="project-desc">A full-fledged healthcare management platform connecting doctors, patients and
+                    clinics. Led backend architecture and contributed to frontend development using React, delivering
+                    secure APIs and real-time capabilities consumed by both web and mobile applications.</p>
+                <ul class="project-highlights">
+                    <li>Hybrid PostgreSQL + MongoDB — transactional data vs audit/operational logs separated by design
+                    </li>
+                    <li>35% reduction in average API response time via caching and query optimizations</li>
+                    <li>40% reduction in new user setup time through role-based onboarding flow optimization</li>
+                    <li>Real-time WebSocket notifications with multi-channel failover (in-app, email, WhatsApp)</li>
+                    <li>Multi-tenant subscription RBAC across 4+ user tiers (doctor, patient, clinic admin, super-admin)
+                    </li>
+                    <li>>99% uptime on AWS EC2 with Nginx, PM2 and stable failure recovery</li>
+                </ul>
+                <div class="project-footer">
+                    <div class="project-tags">
+                        <span class="stack-tag">Node.js</span>
+                        <span class="stack-tag">React</span>
+                        <span class="stack-tag">PostgreSQL</span>
+                        <span class="stack-tag">MongoDB</span>
+                        <span class="stack-tag">AWS</span>
+                        <span class="stack-tag">WebSockets</span>
+                    </div>
+                    <a href="https://www.medb.co.in" class="project-link" target="_blank">Live Site ↗</a>
+                </div>
+            </div>
 
-<section id="summary" class="about">
-<div class="container">
-<div class="section-title">
-<h2>Professional Summary</h2>
-<p>
-Backend-strong Full Stack Developer focused on scalable SaaS systems, healthcare platforms and secure role-based architectures.
-Experienced in designing hybrid database systems, real-time notifications and production deployments on AWS.
-</p>
-</div>
-</div>
-</section>
+            <div class="project-card reveal">
+                <div class="live-badge"><span class="live-dot"></span> On Play Store</div>
+                <div class="project-num">Project 02</div>
+                <div class="project-name">Firstlook</div>
+                <div class="project-tagline">Global Matchmaking Platform</div>
+                <p class="project-desc">Collaborated as backend developer to build a secure, scalable social matchmaking
+                    app. Integrated Cloudflare media storage and Firebase push notifications to enhance engagement.</p>
+                <ul class="project-highlights">
+                    <li>Node.js/Express/MongoDB backend with JWT auth</li>
+                    <li>Cloudflare for media storage, Firebase for push notifications</li>
+                    <li>Admin panel and website development</li>
+                </ul>
+                <div class="project-footer">
+                    <div class="project-tags">
+                        <span class="stack-tag">Node.js</span>
+                        <span class="stack-tag">MongoDB</span>
+                        <span class="stack-tag">Firebase</span>
+                        <span class="stack-tag">Cloudflare</span>
+                    </div>
+                    <a href="https://firstlook.pro/" class="project-link" target="_blank">Website ↗</a>
+                </div>
+            </div>
 
-<!-- ======= Skills Section ======= -->
-<section id="skills" class="skills section-bg">
-<div class="container">
-<div class="section-title">
-<h2>Skills</h2>
-</div>
-<div class="row">
-<div class="col-lg-6">
-<ul>
-<li>
-<strong>Front-end:</strong>
-<span>React.js, Next.js, Redux & RTK, HTML, CSS, JavaScript, jQuery, Ajax, Bootstrap, Tailwind CSS, HBS,
-EJS.</span>
-</li>
-<li>
-<strong>Back-end:</strong>
-<span>Node.js, Express.js, REST API, MVC Architecture</span>
-</li>
-<li>
-<strong>Database:</strong>
-<span>MongoDB, MySQL, PostgreSQL</span>
-</li>
-<li>
-<strong>Languages & Core:</strong>
-<span>JavaScript, TypeScript, Data Structures</span>
-</li>
-</ul>
-</div>
+            <div class="project-card reveal">
+                <div class="live-badge"><span class="live-dot"></span> Live</div>
+                <div class="project-num">Project 03</div>
+                <div class="project-name">StepzFit</div>
+                <div class="project-tagline">Fitness & Nutrition PWA</div>
+                <p class="project-desc">A responsive Progressive Web Application for fitness and nutrition tracking with
+                    personalized guidance and Stripe subscription integration.</p>
+                <ul class="project-highlights">
+                    <li>React.js + Redux frontend, Node.js + MongoDB backend</li>
+                    <li>Stripe subscriptions, Google Auth, Socket.IO real-time chat</li>
+                    <li>Hosted on AWS EC2 with Cloudinary media integration</li>
+                </ul>
+                <div class="project-footer">
+                    <div class="project-tags">
+                        <span class="stack-tag">React</span>
+                        <span class="stack-tag">Node.js</span>
+                        <span class="stack-tag">Stripe</span>
+                        <span class="stack-tag">Socket.IO</span>
+                    </div>
+                    <a href="https://www.stepzfit.online/" class="project-link" target="_blank">Live ↗</a>
+                </div>
+            </div>
 
-<div class="col-lg-6">
-<ul>
-<li>
-<strong>Integration:</strong>
-<span>Stripe, Cloudinary, Nodemailer, PayPal, GoogleAuth, Multer, JWT, Socket.IO, Firebase Auth,
-Mapbox.</span>
-</li>
-<li>
-<strong>Hosting & VCS:</strong>
-<span>Git, GitHub, AWS, Vercel, Nginx, Hostinger, AWS EC2</span>
-</li>
-<li>
-<strong>Tools:</strong>
-<span>Figma, Canva, Code Planner, Moon Modelar, Adobe Photoshop</span>
-</li>
-<li>
-<strong>Languages:</strong>
-<span>English, Kannada, Tamil, Malayalam, Hindi</span>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</section>
-<!-- End Skills Section -->
+            <div class="project-card reveal" style="border-style: dashed; background: transparent;">
+                <div class="project-num">+ More</div>
+                <div class="project-name">Other Projects</div>
+                <div class="project-tagline">Built while learning</div>
+                <p class="project-desc">A collection of projects built across the full stack journey — Next.js,
+                    Typescript, static clones, React mini-apps, e-commerce platforms and dynamic web apps.</p>
+                <ul class="project-highlights">
+                    <li>Static clones: Nvidia, Tesla, Pelican</li>
+                    <li>React clones: OLX, Netflix</li>
+                    <li>Next.js mini projects</li>
+                    <li>Typescript mini projects</li>
+                    <li>Dynamic web apps: Portfolio, Blog, E-commerce</li>
+                    <li>React mini apps: To-Do, Weather App, Chat App, Quiz App</li>
+                    <li>E-commerce: OrganiFresh (Node.js, MongoDB, PayPal, AWS)</li>
+                </ul>
+                <div class="project-footer">
+                    <div class="project-tags">
+                        <span class="stack-tag">React</span>
+                        <span class="stack-tag">Node.js</span>
+                        <span class="stack-tag">MongoDB</span>
+                        <span class="stack-tag">HTML/CSS</span>
+                    </div>
+                    <a href="https://github.com/ThanoojKhan?tab=repositories" class="project-link" target="_blank">View
+                        All ↗</a>
+                </div>
+            </div>
 
-<!-- ======= Experience Section ======= -->
-<section id="experience" class="resume">
-<div class="container">
-<div class="section-title">
-<h2>Experience</h2>
-</div>
+        </div>
+    </section>
 
-<div class="row">
-<div class="col-lg-6" data-aos="fade-up">
-<h3 class="resume-title">Projects</h3>
-<div class="resume-item">
-<h4>MedB – Connected Care</h4>
-<p>
-<em>
-Medical ecosystem for doctors, patients and clinics |
-<a href="https://www.medb.co.in" target="_blank">Live Website</a>
-</em>
-</p>
+    <!-- ─── EDUCATION ─── -->
+    <section id="education">
+        <div class="section-header reveal">
+            <span class="section-num">05</span>
+            <h2 class="section-title">Education</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="edu-grid">
+            <div class="edu-card reveal">
+                <div class="edu-year">2022 — Self-Taught</div>
+                <div class="edu-degree">Full Stack Web Development</div>
+                <div class="edu-school">Self-Directed Learning</div>
+                <p class="edu-desc">Intensive self-study covering DSA, OOP, React, Node.js, MongoDB, PostgreSQL, AWS
+                    deployments, JWT auth, REST APIs and microservices. Validated through building and shipping multiple
+                    production applications.</p>
+            </div>
+            <div class="edu-card reveal">
+                <div class="edu-year">2010 — 2014</div>
+                <div class="edu-degree">B.E. Mechanical Engineering</div>
+                <div class="edu-school">Ghousia College of Engineering, Bengaluru — VTU</div>
+                <p class="edu-desc">Final Year Project: Impact Protection Automatic Pneumatic Bumper for Cars. Submitted
+                    to Visvesvaraya Technological University. Engineering background provides strong analytical thinking
+                    applicable to system design and architecture.</p>
+            </div>
+        </div>
+    </section>
 
-<p>
-MedB is a full-fledged healthcare management platform designed and developed as a production-grade system.
-Led backend architecture and contributed to frontend development using React, delivering secure APIs
-and real-time capabilities consumed by both web and mobile applications.
-</p>
+    <!-- ─── CONTACT ─── -->
+    <section class="contact-section" id="contact">
+        <h2 class="contact-heading reveal">Let's Build<br>Something Real</h2>
+        <div class="contact-links reveal">
+            <a href="https://wa.me/919846840046?text=Hi%20Thanooj%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20job%20opportunity%20with%20you."
+                class="contact-link" target="_blank">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                </svg>
+                WhatsApp
+            </a>
+            <a href="mailto:thanooj.pka@gmail.com" class="contact-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                    <polyline points="22,6 12,13 2,6" />
+                </svg>
+                Email Me
+            </a>
+            <a href="tel:+919846840046" class="contact-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                        d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.06 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+                </svg>
+                Call Me
+            </a>
+            <a href="https://www.linkedin.com/in/thanooj-pelamkulangara/" class="contact-link" target="_blank">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
+                    <rect x="2" y="9" width="4" height="12" />
+                    <circle cx="4" cy="4" r="2" />
+                </svg>
+                LinkedIn
+            </a>
+            <a href="https://github.com/ThanoojKhan" class="contact-link" target="_blank">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+                </svg>
+                GitHub
+            </a>
+            <a href="assets/cv/Thanooj-Pelamkulangara.pdf" class="contact-link" download>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+                Download CV
+            </a>
+        </div>
+        <a href="mailto:thanooj.pka@gmail.com" class="contact-email">thanooj.pka@gmail.com</a>
+    </section>
 
-<ul>
-<li>Designed and built scalable backend APIs using Node.js and Express</li>
-<li>Developed frontend components and dashboards using React</li>
-<li>Implemented hybrid database architecture using PostgreSQL and MongoDB</li>
-<li>Developed role-based access control and JWT authentication</li>
-<li>Built real-time notification system using WebSockets with Email, WhatsApp and in-app alerts</li>
-<li>Implemented appointment booking, clinic scheduling and doctor slot/leave management</li>
-<li>Developed multi-level admin panels including clinic admin and super-admin</li>
-<li>Implemented audit logs, error logs and system activity tracking</li>
-<li>Deployed and managed production infrastructure using AWS EC2, Nginx and PM2</li>
-<li>Optimized API performance using caching and query tuning, reducing average page load time by ~2 seconds</li>
-</ul>
+    <footer>
+        <span>© 2025 Thanooj Pelamkulangara</span>
+        <span>Full Stack Developer — Kerala, India</span>
+    </footer>
 
-<p><strong>Tech Stack:</strong> Node.js, Express, PostgreSQL, MongoDB, React, WebSockets, AWS</p>
-</div>
-<div class="resume-item">
-<h4>Firstlook - Connecting singles worldwide</h4>
-<p><em>A Global platform for matchmaking <a
-href="https://play.google.com/store/apps/details?id=com.firstlookmatrimony.first_look"
-target="_blank">Playstore Link,</a> <a href="https://firstlook.pro/" target="_blank">Website
-Link</a></em></p>
-<p>Firstlook is a collaborative effort to develop a comprehensive social media application. As the backend
-developer,
-responsibilities included collaborating with two Android developers to create a secure and scalable
-backend using Node.js,
-Express and MongoDB. Integrated Cloudflare for media storage and Firebase for push notifications and
-messaging,
-enhancing user engagement. Developed the website and admin panel to improve overall functionality and
-managed
-hosting for seamless performance across user and admin interfaces.</p>
-<p>Used Integrations:</p>
-<ul>
-<li>GoogleAuth</li>
-<li>Firebase</li>
-<li>JWT</li>
-<li>Cloudflare</li>
-</ul>
-</div>
-<div class="resume-item">
-<h4>StepzFit - StepzFit Wellness</h4>
-<p><em>Fitness and Nutrition Tracking with Personalized Guidance. <a href="https://www.stepzfit.online/"
-target="_blank">Live Link</a></em></p>
-<p>A responsive Progressive Web Application (PWA) for fitness and nutrition tracking, providing
-personalized guidance. Developed user-friendly interfaces, implemented secure authentication, and
-integrated subscription systems using Stripe. Utilized technologies including React.js, Redux, Node.js,
-MongoDB, and AWS EC2 for hosting.</p>
-<p>Used Integrations:</p>
-<ul>
-<li>GoogleAuth</li>
-<li>Firebase</li>
-<li>Stripe</li>
-<li>Cloudinary</li>
-<li>Socket.IO</li>
-</ul>
-<p>GitHub Repository: <a href="https://github.com/ThanoojKhan/StepzFit-front-end"
-target="_blank">Front-end</a>, <a href="https://github.com/ThanoojKhan/StepzFit-server"
-target="_blank">Back-end</a></p>
-</div>
-<div class="resume-item">
-<h4>OrganiFresh - Fresh From Farm</h4>
-<p><em>E-commerce Platform for Fresh Produce. <a href="https://54.172.151.104/" target="_blank">Live
-Link</a></em></p>
-<p>Developed OrganiFresh, an e-commerce platform enabling users to purchase fresh produce online.
-Implemented OTP-based login, efficient cart and wishlist systems, smart search functionality, and sales
-reports for admins. Technologies used include EJS, Bootstrap, Node.js, Express.js, MongoDB, Paypal,
-Multer, Node Mailer, Nginx, and AWS EC2 for hosting.</p>
-<p>GitHub Repository: <a href="https://github.com/ThanoojKhan/OrganiFresh-New" target="_blank">Click
-Here</a></p>
-<p>Other Mini Projects:</p>
-<ul>
-<li>Static Clones of: <a href="https://github.com/ThanoojKhan/Nvidia">Nvidia</a>, <a
-href="https://github.com/ThanoojKhan/Tesla">Tesla</a>, <a
-href="https://github.com/ThanoojKhan/Pelican">Pelican</a></li>
-<li>Dynamic React Clones of: <a href="https://github.com/ThanoojKhan/OLX/tree/main/OLX">OLX</a>, <a
-href="https://github.com/ThanoojKhan/netflix">Netflix</a></li>
-<li>React Mini Projects:<a href="https://github.com/ThanoojKhan/to-do-list">To-Do App</a>, <a
-href="https://github.com/ThanoojKhan/weather-app">Weather App</a>, <a
-href="https://github.com/ThanoojKhan/Quiz-app">Quiz App</a></li>
-<li>Several Others: <a href="https://github.com/ThanoojKhan?tab=repositories">GitHub Repositories</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-<h3 class="resume-title">Work Experience</h3>
-<div class="resume-item">
-<h4>MedB Connected Care LLP – Founding Software Engineer</h4>
-<h5>January 2025 – Present</h5>
-<p><em>Remote</em></p>
-
-<ul>
-<li>Leading frontend, backend and system architecture for a live healthcare management platform connecting doctors, patients and clinics</li>
-<li>Designed and implemented scalable APIs using Node.js and Express with PostgreSQL and MongoDB</li>
-<li>Built secure role-based access control and JWT authentication across multiple user roles</li>
-<li>Implemented real-time notifications using WebSockets with Email, WhatsApp and in-app alerts</li>
-<li>Developed core healthcare modules including appointment booking, clinic scheduling and doctor slot management</li>
-<li>Designed multi-level admin systems including clinic admin and super-admin panels</li>
-<li>Implemented system-wide audit, error and activity logging for monitoring and traceability</li>
-<li>Deployed and managed production infrastructure using AWS EC2, Nginx and PM2</li>
-</ul>
-</div>
-<div class="resume-item">
-<h4>Mcabee Technologies - MERN Stack Developer</h4>
-<h5>June 2024 - November 2024</h5>
-<p><em>Remote</em></p>
-<ul>
-<li>Developed scalable backend solutions using Node.js, MongoDB and Express</li>
-<li>Created dynamic front-end interfaces with React and Nextjs</li>
-<li>Integrated APIs and optimized system performance.</li>
-<li>Managed databases and implemented security measures</li>
-<li>Collaborated with cross-functional teams to deliver high-quality software solutions.</li>
-<li>Implemented user authentication and authorization using JWT</li>
-<li>Deployed applications on AWS EC2</li>
-<li>Collaborated with teams to deliver user-focused solutions.</li>
-</ul>
-</div>
-
-<div class="resume-item">
-<h4>Sixphrase by Veranda Learning - MERN Stack Trainer</h4>
-<h5>June 2024</h5>
-<p><em>Kumaraguru College of Technology, Coimbatore</em></p>
-<ul>
-<li>Conducted MERN stack training sessions focusing on full-stack application development</li>
-<li>Guided students on RESTful APIs, authentication and deployment</li>
-<li>Provided hands-on experience in front-end and back-end development</li>
-<li>Managed training sessions and provided feedback to students</li>
-<li>Conducted live coding sessions to enhance student understanding of concepts</li>
-<li>Collaborated with team members to deliver effective training sessions</li>
-<li>Provided support and guidance to students to ensure they succeed in their programming journey</li>
-</ul>
-</div>
-
-<div class="resume-item">
-<h4>Freelance Developer & Contract Work</h4>
-<h5>2023</h5>
-<p><em>Remote</em></p>
-<ul>
-<li>Built full-stack applications using React.js, Node.js, MongoDB and Next.js</li>
-<li>Implemented responsive and user-friendly interfaces</li>
-<li>Managed databases and implemented security measures</li>
-<li>Deployed applications on AWS EC2</li>
-<li>Collaborated with cross-functional teams to deliver high-quality software solutions</li>
-<li>Collaborated with clients to design and deliver scalable web solutions</li>
-</ul>
-</div>
-
-</div>
-</div>
-</div>
-</section>
-<!-- End Experience Section -->
-
-<!-- ======= Experience (Non-IT) Section ======= -->
-<section id="experience1" class="resume">
-<div class="container">
-<div class="section-title">
-<h2>Experience (Non-IT)</h2>
-</div>
-
-<div class="row">
-<div class="col-lg-6" data-aos="fade-up">
-<div class="resume-item">
-<h4>Agriculture Farming (Self-Owned)</h4>
-<h5>2020 - 2022</h5>
-<p><em>Karnataka, India</em></p>
-<ul>
-<li>Managed daily operations and supervised a labor team</li>
-<li>Operated large farm equipment, including tractors, for efficient tasks</li>
-<li>Enhanced expertise in fertilization and chemical application for row crops</li>
-<li>Experimented with and implemented innovative farming techniques</li>
-<li>Educated local farmers on cost-efficient methods for increased yields</li>
-</ul>
-</div>
-<div class="resume-item">
-<h4>Total Projects - Tower Erection (Local Business)</h4>
-<h5>2020</h5>
-<p><em>Kerala, India</em></p>
-<ul>
-<li>Supervised labor teams and evaluated project team performance</li>
-<li>Managed the erection of pre-fabricated steel structures</li>
-<li>Provided project management and team management support</li>
-</ul>
-</div>
-<div class="resume-item">
-<h4>Lift & Tech Engineering and Infrastructure - Project Manager & Investment Partner</h4>
-<h5>2016 - 2019</h5>
-<p><em>Kerala, India</em></p>
-<ul>
-<li>Implemented and managed project plans</li>
-<li>Ensured continuity across processes and project delivery</li>
-<li>Managed internal resources and project administration</li>
-<li>Conducted progress reports and organized meetings</li>
-<li>Communicated with stakeholders, including managers, clients, and suppliers</li>
-<li>Reviewed methods to maximize commercial profitability</li>
-</ul>
-</div>
-<div class="resume-item">
-<h4>Lift & Tech Engineering and Infrastructure - Project Supervisor & Investment Partner</h4>
-<h5>2015</h5>
-<p><em>Kerala, India</em></p>
-<ul>
-<li>Supervised contractors and evaluated project team performance</li>
-<li>Provided health and safety training to employees</li>
-<li>Scheduled and coordinated construction projects</li>
-<li>Ensured compliance with company rules and regulations</li>
-<li>Mentored individuals to work toward common goals</li>
-</ul>
-</div>
-</div>
-</div>
-
-</div>
-</section>
-
-<!-- End Experience (Non-IT) Section -->
-
-<section id="education" class="resume section-bg">
-<div class="container">
-<div class="section-title">
-<h2>Education</h2>
-</div>
-<div class="row">
-<div class="col-lg-6" data-aos="fade-up">
-<div class="resume-item">
-<h4>Self Taught Web Application Developer</h4>
-<h5>2022</h5>
-<p><em>Self Learnt</em></p>
-<ul>
-<li>Gained proficiency in Data Structures and Algorithms (DSA) and Object-Oriented Programming (OOPS).
-</li>
-<li>Mastered designing responsive websites using HTML, CSS, Bootstrap, Tailwind CSS, HBS, EJS,
-Typescript and JavaScript.</li>
-<li>Developed expertise in React.js, Redux and Next.js for dynamic front-end development.</li>
-<li>Specialized in backend development using Node.js, Express.js and database systems like MongoDB,
-MySQL and PostgreSQL.</li>
-<li>Integrated third-party tools and services, including Stripe, PayPal, Razorpay, Firebase, Cloudinary
-and Socket.IO.</li>
-<li>Deepened understanding of RESTful APIs, JWT authentication and microservices architecture.</li>
-<li>Worked with hosting platforms such as AWS, Vercel and Nginx for scalable application deployment.
-</li>
-<li>Leveraged tools like Git, GitHub for version control and containerization.</li>
-</ul>
-</div>
-</div>
-<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-<div class="resume-item">
-<h4>Bachelor of Engineering in Mechanical Engineering</h4>
-<h5>2010 - 2014</h5>
-<p><em>Ghousia College of Engineering, Bengaluru, Karnataka</em></p>
-<p>Final Year Project - Impact Protection Automatic Pneumatic Bumper (For Cars).<br>
-Submitted to VTU - Visvesvaraya Technological University, India</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-
-<!-- ======= Portfolio Section ======= -->
-<!-- <section id="portfolio" class="portfolio section-bg">
-<div class="container">
-<div class="section-title">
-<h2>Portfolio</h2>
-</div>
-<div class="row" data-aos="fade-up">
-<div class="col-lg-12 d-flex justify-content-center">
-<ul id="portfolio-flters">
-<li data-filter="*" class="filter-active">All</li>
-<li data-filter=".filter-app">Photography</li>
-<li data-filter=".filter-card">Responsive Websites</li>
-<li data-filter=".filter-web">Static Websites</li>
-</ul>
-</div>
-</div>
-
-<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-<div class="portfolio-wrap">
-<img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-<div class="portfolio-links">
-<a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-<a href="https://www.instagram.com/p/Bh5hDyYFCAT/?utm_source=ig_web_copy_link" title="More Details"
-target="_blank"><i class="bx bx-link"></i></a>
-</div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-6 portfolio-item filter-web">
-<div class="portfolio-wrap">
-<img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-<div class="portfolio-links">
-<a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
-class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-<a href="https://github.com/ThanoojKhan/Nvidia" title="More Details" target="_blank"><i
-class="bx bx-link"></i></a>
-</div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-<div class="portfolio-wrap">
-<img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-<div class="portfolio-links">
-<a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
-class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-<a href="https://www.instagram.com/p/BjAYW5UlIHK/?utm_source=ig_web_copy_link" title="More Details"
-target="_blank"><i class="bx bx-link"></i></a>
-</div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-<div class="portfolio-wrap">
-<img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-<div class="portfolio-links">
-<a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
-class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-<a href="https://github.com/ThanoojKhan/Thanooj-Pelamkulangara" title="More Details" target="_blank"><i
-class="bx bx-link"></i></a>
-</div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-6 portfolio-item filter-web">
-<div class="portfolio-wrap">
-<img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-<div class="portfolio-links">
-<a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
-class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-<a href="https://github.com/ThanoojKhan/Pelican" title="More Details" target="_blank"><i
-class="bx bx-link"></i></a>
-</div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-<div class="portfolio-wrap">
-<img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-<div class="portfolio-links">
-<a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
-class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-<a href="https://www.instagram.com/p/BjGN7aglyri/?utm_source=ig_web_copy_link" title="More Details"
-target="_blank"><i class="bx bx-link"></i></a>
-</div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-<div class="portfolio-wrap">
-<img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-<div class="portfolio-links">
-<a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
-class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-<a href="https://github.com/ThanoojKhan/Tesla" title="More Details" target="_blank"><i
-class="bx bx-link"></i></a>
-</div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-<div class="portfolio-wrap">
-<img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-<div class="portfolio-links">
-<a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
-class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-<a href="https://github.com/ThanoojKhan/Tesla" title="More Details" target="_blank"><i
-class="bx bx-link"></i></a>
-</div>
-</div>
-</div>
-
-<div class="col-lg-4 col-md-6 portfolio-item filter-web">
-<div class="portfolio-wrap">
-<img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-<div class="portfolio-links">
-<a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
-class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-<a href="https://github.com/ThanoojKhan/Pelican" title="More Details" target="_blank"><i
-class="bx bx-link"></i></a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section> -->
-<!-- End Portfolio Section -->
-
-</main><!-- End #main -->
-
-<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-class="bi bi-arrow-up-short"></i></a>
-
-<!-- Vendor JS Files -->
-<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-<script src="assets/vendor/aos/aos.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="assets/vendor/typed.js/typed.min.js"></script>
-<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-
-<!-- Template Main JS File -->
-<script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
-
 </html>
-
-
-
-
-
-
-
