@@ -29,9 +29,55 @@
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-        <a href="https://wa.me/919846840046?text=Hi%20Thanooj%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20job%20opportunity%20with%20you."
-            class="nav-cta" target="_blank">Hire Me</a>
+
+        <div class="nav-right">
+            <a href="assets/cv/Thanooj-Pelamkulangara.pdf" class="sidebar-link-a" download>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+                DOWNLOAD CV
+            </a>
+            <a href="https://wa.me/919846840046?text=Hi%20Thanooj%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20job%20opportunity%20with%20you."
+                class="nav-cta" target="_blank">Hire Me</a>
+
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
     </nav>
+
+    <!-- ─── SIDEBAR ─── -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <aside class="sidebar" id="sidebar">
+
+        <div class="sidebar-links">
+            <a href="#about" class="sidebar-link">About</a>
+            <a href="#skills" class="sidebar-link">Skills</a>
+            <a href="#experience" class="sidebar-link">Experience</a>
+            <a href="#projects" class="sidebar-link">Projects</a>
+            <a href="#contact" class="sidebar-link">Contact</a>
+        </div>
+
+        <div class="sidebar-footer">
+            <a href="https://wa.me/919846840046?text=Hi%20Thanooj%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20job%20opportunity%20with%20you."
+                class="nav-cta" target="_blank">
+                Hire Me
+            </a>
+            <a href="assets/cv/Thanooj-Pelamkulangara.pdf" class="btn-tertiary" download>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+                <span class="sidebar-link">DOWNLOAD CV</span>
+            </a>
+        </div>
+    </aside>
 
     <!-- ─── HERO ─── -->
     <section class="hero" id="home">
@@ -67,7 +113,7 @@
                 <div class="stat-label">Years Experience</div>
             </div>
             <div class="stat">
-                <div class="stat-num">4<span>+</span></div>
+                <div class="stat-num">3<span>+</span></div>
                 <div class="stat-label">Production Apps</div>
             </div>
             <div class="stat">
@@ -131,12 +177,14 @@
                     subscription and role-based access control, hybrid database design, real-time infrastructure and AWS
                     deployments. I apply SOLID principles, clean architecture and testing practices to every system I
                     build.</p>
-                <p>Currently a Founding Engineer at <strong>MedB Connected Care</strong>, where I'm the primary
-                    technical decision-maker — defining architecture, database strategy and deployment workflows
-                    independently.</p>
+                <p>Currently a Founding Software Engineer at <strong>MedB Connected Care LLP</strong>, where I lead
+                    backend architecture, frontend architecture, database design, API design and production deployment
+                    for a live healthcare SaaS platform serving real users.</p>
                 <div class="about-badges">
                     <span class="badge">0→1 Ownership</span>
                     <span class="badge">Backend Architecture</span>
+                    <span class="badge">Frontend Architecture</span>
+                    <span class="badge">Database Design</span>
                     <span class="badge">SOLID Principles</span>
                     <span class="badge">API Design</span>
                     <span class="badge">AWS Deployments</span>
@@ -150,8 +198,19 @@
                         <div class="info-value">Kerala, India</div>
                     </div>
                     <div class="info-item">
+                        <div class="info-label">WhatsApp</div>
+                        <div class="info-value">
+                            <a href="https://wa.me/919846840046?text=Hi%20Thanooj%2C%20I%20found%20your%20portfolio%20and%20wanted%20to%20discuss%20a%20backend%2Ffull-stack%20opportunity%20with%20you."
+                                target="_blank">
+                                Click to Chat
+                            </a>
+                        </div>
+                    </div>
+                    <div class="info-item">
                         <div class="info-label">Email</div>
-                        <div class="info-value"><a href="mailto:thanooj.pka@gmail.com">thanooj.pka@gmail.com</a></div>
+                        <div class="info-value"><a
+                                href="mailto:thanooj.pka@gmail.com?subject=Job Opportunity&body=Hi Thanooj, I came across your portfolio and would like to discuss a job opportunity with you.">thanooj.pka@gmail.com</a>
+                        </div>
                     </div>
                     <div class="info-item">
                         <div class="info-label">GitHub</div>
@@ -162,11 +221,6 @@
                         <div class="info-label">LinkedIn</div>
                         <div class="info-value"><a href="https://www.linkedin.com/in/thanooj-pelamkulangara-a9244359/"
                                 target="_blank">View Profile</a></div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-label">LeetCode</div>
-                        <div class="info-value"><a href="https://leetcode.com/thanu1495/" target="_blank">View
-                                Profile</a></div>
                     </div>
                     <div class="info-item">
                         <div class="info-label">Phone</div>
@@ -547,7 +601,7 @@
     <section class="contact-section" id="contact">
         <h2 class="contact-heading reveal">Let's Build<br>Something Real</h2>
         <div class="contact-links reveal">
-            <a href="https://wa.me/919846840046?text=Hi%20Thanooj%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20job%20opportunity%20with%20you."
+            <a href="https://wa.me/919846840046?text=Hi%20Thanooj%2C%20I%20found%20your%20portfolio%20and%20wanted%20to%20discuss%20a%20backend%2Ffull-stack%20opportunity%20with%20you."
                 class="contact-link" target="_blank">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                     <path
@@ -555,7 +609,8 @@
                 </svg>
                 WhatsApp
             </a>
-            <a href="mailto:thanooj.pka@gmail.com?subject=Job Opportunity&body=Hi Thanooj, I came across your portfolio and would like to discuss a job opportunity with you." class="contact-link">
+            <a href="mailto:thanooj.pka@gmail.com?subject=Job Opportunity&body=Hi Thanooj, I came across your portfolio and would like to discuss a job opportunity with you."
+                class="contact-link">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                     <polyline points="22,6 12,13 2,6" />
@@ -584,6 +639,8 @@
                 </svg>
                 GitHub
             </a>
+        </div>
+        <div class="contact-links reveal">
             <a href="assets/cv/Thanooj-Pelamkulangara.pdf" class="contact-link" download>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
@@ -593,7 +650,8 @@
                 Download CV
             </a>
         </div>
-        <a href="mailto:thanooj.pka@gmail.com?subject=Job Opportunity&body=Hi Thanooj, I came across your portfolio and would like to discuss a job opportunity with you." class="contact-email">thanooj.pka@gmail.com</a>
+        <a href="mailto:thanooj.pka@gmail.com?subject=Job Opportunity&body=Hi Thanooj, I came across your portfolio and would like to discuss a job opportunity with you."
+            class="contact-email">thanooj.pka@gmail.com</a>
     </section>
 
     <footer>
