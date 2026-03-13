@@ -1360,6 +1360,7 @@
    flex-direction: column;
    gap: 14px;
    align-items: center;
+   margin-bottom: 40%;
  }
 
  .sidebar-footer .nav-cta {
