@@ -818,6 +818,14 @@
    gap: 6px;
  }
 
+ .project-links {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   flex-wrap: wrap;
+   gap: 14px;
+ }
+
  .project-link {
    font-size: 0.75rem;
    color: var(--accent);
